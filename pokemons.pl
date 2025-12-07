@@ -46,6 +46,15 @@ info(923, 'pawmot', 'elétrico', 'lutador', 70).
 
 % Ataques do pokemon 
 %moveset(id, atk1, atk2)
+moveset(0908, 'planta mortal', 'flor explosiva').
+moveset(0124, 'confusão', 'avalanche').
+moveset(0306, 'golpe pesado', 'raio meteórico').
+moveset(0260, 'hidro canhão', 'terremoto').
+moveset(0094, 'lambida', 'bomba de lodo').
+moveset(0149, 'meteoro do dragão', 'furacão').
+moveset(0257, 'aura esférica', 'chama furacão').
+moveset(0040, 'jogo duro', 'pancada').
+moveset(0738, 'tesoura x', 'descarga').
 
 % Esse pokemon evolui para qual?
 evolui(id_base, id_evolucao).
@@ -67,6 +76,24 @@ evolui(922, 923). % Pawmo -> Pawmot
 
 % Informações dos Ataques
 atkinfo(atk, tipo, dano)
+atkinfo('planta mortal', 'grass', 100).
+atkinfo('talho noturno', 'dark', 45).
+atkinfo('confusão', 'psychic', 19).
+atkinfo('avalanche', 'ice', 85).
+atkinfo('golpe pesado', 'steel', 70).
+atkinfo('raio meteórico', 'rock', 140).
+atkinfo('hidro canhão', 'water', 90).
+atkinfo('terremoto', 'ground', 140).
+atkinfo('lambida', 'ghost', 5).
+atkinfo('bomba de lodo', 'poison', 85).
+atkinfo('meteoro do dragão', 'ghost', 150).
+atkinfo('furacão', 'flying', 105).
+atkinfo('aura esférica', 'fighting', 100).
+atkinfo('chama furacão', 'flying', 13).
+atkinfo('jogo duro', 'fada', 90).
+atkinfo('pancada', 'normal', 6).
+atkinfo('tesoura x', 'bug', 45).
+atkinfo('descarga', 'electric', 65).
 
 % Fraquezas
 fraqueza(tipoforte, tipofraco)
