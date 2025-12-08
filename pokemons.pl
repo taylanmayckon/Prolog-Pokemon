@@ -46,15 +46,15 @@ info(923, 'pawmot', 'eletrico', 'lutador', 70).
 
 % Ataques do pokemon 
 %moveset(id, atk1, atk2)
-moveset(908, 'planta mortal', 'flor explosiva').
-moveset(124, 'confusão', 'avalanche').
-moveset(306, 'golpe pesado', 'raio meteórico').
-moveset(260, 'hidro canhão', 'terremoto').
-moveset(094, 'lambida', 'bomba de lodo').
-moveset(149, 'meteoro do dragão', 'furacão').
-moveset(257, 'aura esférica', 'chama furacão').
-moveset(40, 'jogo duro', 'pancada').
-moveset(738, 'tesoura x', 'descarga').
+moveset(908, 'planta mortal', 'flor explosiva'). % Meowscarada
+moveset(124, 'confusão', 'avalanche'). % Jynx
+moveset(212, 'golpe pesado', 'raio meteórico'). % Scizor
+moveset(260, 'hidro canhão', 'terremoto'). % Swampert
+moveset(94, 'lambida', 'bomba de lodo'). % Gengar
+moveset(149, 'meteoro do dragão', 'furacão'). % Dragonite
+moveset(59, 'fúria colérica', 'deslize de pedras'). % Hisuian Arcanine
+moveset(40, 'jogo duro', 'pancada'). % Wygglytuff
+moveset(923, 'choque duplo', 'combate próximo'). % Pawmot
 
 % Esse pokemon evolui para qual?
 evolui(id_base, id_evolucao).
@@ -88,14 +88,13 @@ atkinfo('lambida', 'fantasma', 5).
 atkinfo('bomba de lodo', 'venenoso', 85).
 atkinfo('meteoro do dragão', 'dragao', 150).
 atkinfo('furacão', 'voador', 105).
-atkinfo('aura esférica', 'Lutador', 100).
-atkinfo('chama furacão', 'voador', 13).
+atkinfo('fúria colérica', 'fogo', 120).
+atkinfo('deslize de pedras', 'pedra', 75).
 atkinfo('jogo duro', 'fada', 90).
 atkinfo('pancada', 'normal', 6).
-atkinfo('tesoura x', 'inseto', 45).
-atkinfo('descarga', 'eletrico', 65).
+atkinfo('choque duplo', 'elétrico', 120).
+atkinfo('combate próximo', 'lutador', 120).
 
 % Fraquezas
 %eficacia(tipo1, tipo2, fator_multiplicacao)
-
 
