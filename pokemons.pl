@@ -92,7 +92,7 @@ atkinfo('fúria colérica', 'fogo', 120).
 atkinfo('deslize de pedras', 'pedra', 75).
 atkinfo('jogo duro', 'fada', 90).
 atkinfo('pancada', 'normal', 6).
-atkinfo('choque duplo', 'elétrico', 120).
+atkinfo('choque duplo', 'eletrico', 120).
 atkinfo('combate próximo', 'lutador', 120).
 
 % Fraquezas
